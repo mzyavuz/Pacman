@@ -63,7 +63,6 @@ public class MelikeZeynepCakmakci {
         for (Monster monster : monsters) {
             monster.draw(monster.position_x, monster.position_y);
         }
-
         StdDraw.enableDoubleBuffering();
 
         while (!foodFinish()) {
